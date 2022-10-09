@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main(void) {
+//для div и для mod с остатком 5
+    int a = 10;
+    scanf("%d", &a);
+    int b = 0;
+    scanf("%d", &b);
+    int f = 0;
+    int c =0;
+    int r = 0;
+    while (a-b>=0) {
+        d = a - b;
+        r = b + b;
+        a=a-b;
+        c+=1;
+    }
+    if (f==1){
+        f=5;
+    }
+    printf("div = %d\n", c);
+    printf("mod = %d\n", f);
+}
